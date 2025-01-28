@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Título principal */
+.titulo {
+    display: flex;
+    justify-content: left;
+    padding-top: 4%;
+    padding-left: 11%;
+    padding-bottom: 2%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Sección de signos del zodiaco */
+.contenedorInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorImg {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 6%;
+    overflow-y: auto;
+}
+
+.contenedorSig {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenedorSig img {
+    max-width: 70%;
+    height: auto;
+    cursor: pointer;
+}
+
+.contenedorSig h3 {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Descripción del signo */
+.contenedorDescripcion {
+    width: 50%;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+.contenedorDescripcion h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.contenedorDescripcion p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Sección de cálculo del zodiaco */
+#app {
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #ffcccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 70%;
+}
+
+#app h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    font-size: 16px;
+}
+
+input[type="date"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+/* Resultado de los signos */
+.resultado {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Tabla del horóscopo chino */
+h3 {
+    margin-top: 20px;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+td img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
